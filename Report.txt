@@ -1,0 +1,20 @@
+Question 1:
+	For rolling 10 times:
+		The probability of each of the values between 1 and 6 are really random; varying from 0.1 to 0.4. And it is very likely that one of them would not occur at all. 
+	For rolling 1000 times:
+		The probability of each of the values are more similar to each other, all of them have the same value to the first decimal place, which is 0.1. However, starting from the second decimal place, the value starts varying again. 
+	For rolling 100000 times:
+		They have the same probability to the first 2 decimal places, which is 0.16, and the third digit is varying from 6 to 9.
+	In general, the more times I roll the dice, the more accurate result will I get. Because theoretically, the probability for each of the value should be 10/6=1.666666. 
+		
+Question 2:
+	The result keeps changing between 750 and 820, and this can be explained by the Binomial Theorem. Because theoretically, the probability should be 100!/(50!*50!)*0.5^50*0.5^50*10000=795.
+		
+Question 3:
+	The probability is increasing from 2 to 7, and decreasing from 7 to 12, the maximum is around 0.16 for "7", and the minimum is around 0.03 for "2" and "12". Because for 7, there are 6 possible combinations of values of the 2 dice: 1,6; 2,5; 3,4. But for 2, and 12, there is only 2 for each of them: 1,1; 6,6. Therefore, it is more likely to get values which have more possible combinations.
+	
+Question 4:
+	The busting probability from 10 to 12 is 0, because we will never get busted before reaching 12. For example, if I have 11 points, and the next card is Ace, I can consider it as 1 to avoid busting. If I have 10 points, and I received an Ace, I can consider it as 11 to reach BlackJack. Once I reach 12, then if the next card is Jack, Queen or King, I would bust. The probability keeps increasing when I increase the threshold. Because if the threshold is increased, there are more possible cards which can lead to a bust. 
+
+Question 5;
+	The result is between 0.20 and 0.21, which means I can bet right for 20% to 21% of the times. To maximize the winnings, I should bet higher for higher value, and bet lower for lower value I got from the Hi-Lo Algorithm. 	
